@@ -22,12 +22,13 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items:center;
-    height: 60px;
+    height: 70px;
     background-color:whitesmoke;
     box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
     padding:0px 5%;
     border-bottom-style:solid ;
     border-color:hsl(350, 54%, 69%);
+    border-width: 3px;
 
 }
 
@@ -39,14 +40,14 @@ nav ul li a{
     margin:30px;
     font-family: Arial;
     color:black;
-    font-size:15px;
+    font-size:18px;
     font-weight: 700;
 }
 
 .Logo {
         font-family: Georgia;
         color:hsl(350, 54%, 69%);
-        font-size: 20px;
+        font-size: 25px;
     
 }
 
@@ -56,21 +57,23 @@ li a:hover {
 
 .text-container p:nth-child(1) {
     color: hsl(350, 54%, 69%);
+    font-size: 20px;
 }
 
 .text-container p:nth-child(2) {
     color: black;
-    font-size: 50px;
+    font-size: 60px;
 }
 
 .text-container p:nth-child(3){
     color:black;
     line-height: 30px;
-    font-size: 50px;
+    font-size: 60px;
 }
 
 .text-container p:nth-child(4) {
     color:black;
+    font-size: 20px;
     line-height: 30px;
     font-family:Calibri;
 }
@@ -89,10 +92,15 @@ li a:hover {
 .text-container button {
     background-color:#FFE2DB;
     border-radius: 5px;
-    padding: 12px;
+    padding: 18px;
     border-color: hsl(350, 54%, 69%);
     border-width: 3px;
+    font-size: 15px;
     
+}
+
+.text-container button :hover{
+    color: black;
 }
 
 .text-container a{
@@ -118,7 +126,7 @@ li a:hover {
 .text-container2 p {
     color:black;
     font-family: Arial;
-    font-size:12px ;
+    font-size:17px ;
     position: relative;
     left: 2%;
     line-height: 17px;
@@ -126,9 +134,9 @@ li a:hover {
 
 
 #oikealle {
-    height: 300px;
+    height: 350px;
     position: absolute;
-    bottom: 0px;
+    bottom: -20px;
     left: 150%;
     transform: translate(-150);
     border-radius: 6px;
@@ -138,7 +146,7 @@ li a:hover {
   }
 
   #oikealle1 {
-    height: 350px;
+    height: 400px;
     position: absolute;
     bottom: -150px;
     left: 130%;
@@ -153,13 +161,31 @@ li a:hover {
       background-size: cover;
       box-shadow: 2px 2px 12px rgba(0,0,0,0.3);
       background-color: whitesmoke;
+      border: solid;
+     
   }
   
+ .box-1 {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-size: 30px;
+     
+     
+     
+ }
+
+ .box-1 p {
+     border-bottom:solid;
+ }
+   
+
   .box-container {
       display: flex;
-      justify-content: space-around;
-      width: 1000px;
+     justify-content: space-around;
       margin-bottom: 40px;
+    
+    
       
   }
 
