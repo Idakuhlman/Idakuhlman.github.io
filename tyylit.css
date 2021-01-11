@@ -231,13 +231,13 @@ li a:hover {
   @media screen and (max-width:768px) {
     section {
       flex-direction: column;
-   
+   width: 100%;
     
     }
 
     .oikealle{
         position:absolute;
-        left: 10%;
+    
         bottom: 105px;
     }
 
@@ -280,10 +280,6 @@ li a:hover {
     section {
       flex-direction: column;
     }
-    .oikealle{
-     
-       
-    }
 
 
     .text-container {
@@ -318,6 +314,7 @@ li a:hover {
         font-size: 1px;
         font-family:Brush Script MT, Brush Script Std, cursive ;
         font-weight: bold;
+        width: 100%;
   
 
 }
