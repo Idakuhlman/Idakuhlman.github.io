@@ -304,18 +304,10 @@ li a:hover {
          width: 100%;
      }
     
-     .contact-me {
-         justify-content: center;
-         align-items: center;
-         width: 100%;
-     }
+     
+     
      .contact-me p{
-        color: black;
-        font-size: 30px;
-        font-family:Brush Script MT, Brush Script Std, cursive ;
-        font-weight: bold;
-        width: 100%;
-  
+       width: 100%;
 
 }
   }
