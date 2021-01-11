@@ -81,12 +81,14 @@ li a:hover {
 .text-container p {
     line-height:10px;
     margin: 45px 0px 25px;
+
 }
 .text-container {
     position: absolute;
     left: 13%;
     top: 42%;
     transform: translate(-13%, -42%);
+    flex: 1;
 }
 
 .text-container button {
@@ -132,18 +134,21 @@ li a:hover {
     line-height: 17px;
 }
 
-
-#oikealle {
+.oikealle {
     
-    height:400px;
     position: absolute;
-    bottom: -40px;
-    left: 150%;
-    transform: translate(-150);
+    bottom: 170px;
+    left: 65%;
     border-radius: 6px;
-    background-color: E0E0E0;
     overflow: hidden;
       object-fit: cover;
+}
+
+.oikealle img {
+    
+    height: 400px;
+    
+    
   }
 
   #oikealle1 {
@@ -165,11 +170,7 @@ li a:hover {
       border: solid;
      
   }
-  @media screen and (max-width:1000px) {
-    .box-1, .box-2, .box-3 {
-      width:100%;
-    }
-}
+
  
   
  .box-1 {
@@ -195,7 +196,6 @@ li a:hover {
     
       
   }
-
 
 
   .contact-me{
@@ -226,5 +226,99 @@ li a:hover {
       justify-content: center;
       align-items: center;
   }
+/* Media comes here*/
+  
+  @media screen and (max-width:768px) {
+    section {
+      flex-direction: column;
+   
+    
+    }
+
+    .oikealle{
+        position:absolute;
+        left: 10%;
+        bottom: 105px;
+    }
+
+    .text-container {
+        margin-top: -20%;
+        text-align:center;
+        
+    }
+    .text-container p:nth-child(2) {
+        color: black;
+        font-size: 50px;
+    }
+    
+    .text-container p:nth-child(3){
+        color:black;
+        line-height: 30px;
+        font-size: 40px;
+    }
+    .box-container {
+        flex-direction: column;
+        width: 100%;
+    }
+     .box-1, .box-2, .box-3 {
+       width: 100%;
+     }
+    
+     .contact-me p{
+        color: black;
+        font-size: 30px;
+        font-family:Brush Script MT, Brush Script Std, cursive ;
+        font-weight: bold;
+     }
+  
+   
+
+  }
 
   
+  @media screen and (max-width:375px) {
+    section {
+      flex-direction: column;
+    }
+    .oikealle{
+     
+       
+    }
+
+
+    .text-container {
+    
+        text-align:center;
+        top: 35%;
+    }
+    .text-container p:nth-child(2) {
+        color: black;
+        font-size: 30px;
+    }
+    
+    .text-container p:nth-child(3){
+        color:black;
+        line-height: 30px;
+        font-size: 20px;
+    }
+    .box-container {
+        flex-direction: column;
+    }
+     .box-1, .box-2, .box-3 {
+         width: 100%;
+     }
+    
+     .contact-me {
+         justify-content: center;
+         align-items: center;
+         width: 5%;
+     }
+     .contact-me p{
+        color: black;
+        font-size: 1px;
+        font-family:Brush Script MT, Brush Script Std, cursive ;
+        font-weight: bold;
+  
+
+}
+  }
