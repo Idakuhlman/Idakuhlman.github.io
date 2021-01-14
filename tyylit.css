@@ -360,7 +360,7 @@ li a:hover {
   @media screen and (max-width:376px) {
     section {
       flex-direction: column;
-      height: 80vh;
+      height: 90vh;
     }
 
      
@@ -376,7 +376,7 @@ li a:hover {
     .text-container {
     
         text-align:center;
-        top: 65%;
+        top: 60%;
     
         
     }
@@ -421,12 +421,19 @@ li a:hover {
         font-size: 15px;
         
     }
+    .text-container2 {
+        position:absolute;
+        left: 3%;
+        top: 30%;
+        transform: translate(-3%, -20%);
+    }
 
     .box-container {
 
         flex-direction: column;
         width: 80%;
         margin: auto;
+        
     }
      .box-1, .box-2, .box-3 {
          width: 100%;
