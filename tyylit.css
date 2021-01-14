@@ -453,9 +453,14 @@ li a:hover {
          margin-bottom: 7%;
      }
 
-    .contact-me p:nth-child(1){
+    .contact-me p:nth-child(1)
+    {
         font-size: 22px;
         
+    }
+    .contact-me p:nth-child(2)
+    {
+        font-size:17px ;
     }
 
     nav ul li a{
