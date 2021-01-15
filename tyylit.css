@@ -408,7 +408,7 @@ li a:hover {
     
     position: absolute;
     left: 20%;
-        top: 60%;
+        top: 50%;
     
         
     }
@@ -464,10 +464,11 @@ li a:hover {
     .text-container2 p {
         color:black;
         font-family: Arial;
-        font-size:8px ;
+        font-size:3vw ;
         position:relative ;
         left: 2%;
-        line-height: 14px;
+        line-height: 17px;
+        
     }
 
 
