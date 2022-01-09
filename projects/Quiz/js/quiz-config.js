@@ -9,7 +9,7 @@ questions = [
         correctAnswer: 'c'
     },
     {
-        question: 'In which programming language I am the best',
+        question: 'In which programming language I am the best?',
         answers: {
             a: 'JavaScript',
             b: 'Python',
@@ -18,16 +18,16 @@ questions = [
         correctAnswer: 'a'
     },
     {
-        question: 'What I like to do at freetime',
+        question: 'What do I like to do in free time?',
         answers: {
             a: 'Bake',
-            b: 'sleep',
-            c: 'paint'
+            b: 'Sleep',
+            c: 'Paint'
         },
         correctAnswer: 'a'
     },
     {
-    question: 'How many pets I have',
+    question: 'How many pets I have?',
     answers: {
         a: '4',
         b: '3',
@@ -36,16 +36,16 @@ questions = [
     correctAnswer: 'b'
 },
 {
-    question: 'Where I want to live in the future',
+    question: 'Where do I want to live in the future?',
     answers: {
         a: 'New York',
         b: 'City',
-        c: 'Coyntryside'
+        c: 'Countryside'
     },
     correctAnswer: 'c'
 },
 {
-    question: 'What is my other occupation but now as a hobby',
+    question: 'What is my other occupation that now is a hobby',
     answers: {
         a: 'Pastry chef',
         b: 'Builder',
