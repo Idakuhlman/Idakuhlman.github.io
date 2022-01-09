@@ -259,7 +259,7 @@ a:hover{
   }
 
   @media (hover:hover) {
-    #logo:hover {
+    #logo a:hover {
         transform: translateY(0) scale(1.2);
         letter-spacing: 0.1rem;
         transition: 0.7s;
@@ -270,7 +270,7 @@ a:hover{
   }
 
   @media (hover: none) {
-  #logo:hover {
+  #logo a:hover {
     transform: translateY(0) scale(1.2);
     letter-spacing: 0.1rem;
     transition: 0.7s;
