@@ -38,7 +38,7 @@ questions = [
 {
     question: 'Where do I want to live in the future?',
     answers: {
-        a: 'New York',
+        a: 'Village',
         b: 'City',
         c: 'Countryside'
     },
