@@ -214,7 +214,7 @@ function finalVerdict() {
     questionEl.style.display = 'none';
     answersEl.style.display = 'none';
 
-    verdictEl.textContent = 'Sait ' + score + ' / ' + questions.length + ' points. ';
+    verdictEl.textContent = 'You got ' + score + ' / ' + questions.length + ' points. ';
 
     // Loop through verdicts
     for (var i in verdicts) {
