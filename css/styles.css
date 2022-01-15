@@ -170,14 +170,12 @@ img {
 
 
 /* Project*/
-
 .projectlink li  {
     list-style: none;
     margin-bottom: 15px;
 }
 
 .projectlink li a {
-    
     font-weight: bold;
     color: black;
    
@@ -186,6 +184,19 @@ img {
 #projecttext {
     font-size: 20px;
     margin: 0 20px;
+}
+
+#visuallink  {
+    color: black;
+    font-weight: bold;
+}
+
+.projectlink li a:hover {
+    color:hsl(350, 54%, 69%);
+}
+
+#visuallink:hover{
+    color:hsl(350, 54%, 69%);
 }
 
 /* contact*/
@@ -198,10 +209,6 @@ img {
 hr {
     color: black;
     margin: 0 10px;
-}
-
-.projectlink li a:hover {
-    color:hsl(350, 54%, 69%);
 }
 
 /*footer*/
