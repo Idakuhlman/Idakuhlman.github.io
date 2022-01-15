@@ -186,9 +186,9 @@ img {
     margin: 0 20px;
 }
 
-.visuallink a {
-    color: black;
+.visuallink {
     font-weight: bold;
+    color: black;
 }
 
 .projectlink li a:hover {
