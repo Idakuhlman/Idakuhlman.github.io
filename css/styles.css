@@ -210,12 +210,12 @@ h6 {
 }
 
 #contactme a {
-    color: black;
+    color: hsl(350, 54%, 69%);
     text-decoration: none;
 }
 
 #contactme a:hover {
-    color:hsl(350, 54%, 69%);
+    color: black;
     text-decoration: underline;
    
 }
