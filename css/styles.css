@@ -209,6 +209,16 @@ h6 {
     font-size: 20px;
 }
 
+#contactme a {
+    color: black;
+    text-decoration: none;
+}
+
+#contactme a:hover {
+    color:hsl(350, 54%, 69%);
+    text-decoration: underline;
+   
+}
 
 hr {
     color: black;
