@@ -168,6 +168,10 @@ img {
     margin: 0 20px;
 }
 
+h6 {
+    margin-bottom: 10px;
+}
+
 
 /* Project*/
 .projectlink li  {
