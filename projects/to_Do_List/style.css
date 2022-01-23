@@ -1,8 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 
 body {
     background-color: rgb(241, 209, 221);
@@ -20,6 +16,7 @@ form {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin:auto;
 }
 
 form input, form button {
