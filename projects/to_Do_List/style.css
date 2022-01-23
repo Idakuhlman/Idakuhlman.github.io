@@ -1,4 +1,8 @@
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
     background-color: rgb(241, 209, 221);
@@ -16,7 +20,7 @@ form {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin:auto;
+  
 }
 
 form input, form button {
@@ -102,4 +106,11 @@ form button:hover {
 .completed {
   text-decoration: line-through;
   opacity: 0.5;
+}
+
+@media(max-width:495px) {
+    form input, button{
+        width: 170px;
+        
+    }
 }
