@@ -1,22 +1,20 @@
+
 body {
   
     font-family: 'Poppins', sans-serif;
     text-align: center;    
    /* background: rgb(199,112,136);
     background: linear-gradient(to bottom right, rgba(199,112,136,1) 0%, rgba(232,192,192,1) 59%, rgba(254,231,237,1) 84%); */
-    background: linear-gradient(180deg, #F6D2E0, #f3b4c9);
+    background: linear-gradient(180deg, #F6D2E0, #d87797);
 }
 
 #naw1 {
     border-bottom: 3px solid;
-    border-color: hsl(350, 54%, 69%);
-
-    
-    
+    border-color: hsl(350, 54%, 69%);    
 }
 #logo {
     margin-left: 30px;
-  color:  hsl(350, 54%, 69%);
+    color:  hsl(350, 54%, 69%);
 }
 
 h2{
@@ -27,12 +25,64 @@ h2{
 
 }
 
+/* icons and cards */
 
+#cardcolor {
+    background-color: cornflowerblue;
+    margin: auto;
+    border-bottom: 4px solid black;
+    border-left: 4px solid black;
+}
+
+.divicon {
+    margin-bottom: 1rem;
+}
+
+.icons {
+    color:white;
+    font-size: 4.5rem;
+    margin-bottom: 1rem;
+}
+
+#container {
+    max-width: 950px;
+    padding-bottom: 2.5rem;
+}
+
+.card {
+    transition: .5s;
+    background-color: white;   
+     border-bottom: 4px solid black;
+     text-align: start !important;
+  }
+
+.card {
+    transition: 0.3s;
+  }
+
+  .card:hover {
+    transform: translate(0, -15px);
+  }
+
+.card-link {
+    color:black;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.card-link:hover {
+    color:hsl(350, 54%, 69%);
+
+}
+
+.boxicon {
+    font-size: 2rem;
+    color: rgb(91, 207, 211);
+  
+    text-align: start !important;
+}
 
 /* navigation*/
-
-
-
 #navbar ul {
     margin-right: 30px;
 }
@@ -167,8 +217,9 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 
 
 /* About me*/
-img {
+.img_ida {
     border-radius: 6px;
+  
 }
 
 .aboutmetext {
@@ -219,12 +270,12 @@ h6 {
 }
 
 #contactme a {
-    color:  hsl(350, 48%, 56%);
+    color: black;
     text-decoration: none;
 }
 
 #contactme a:hover {
-    color:black;
+    color:hsl(351, 58%, 87%);
     text-decoration: underline;
    
 }
@@ -234,9 +285,8 @@ hr {
     margin: 0 10px;
 }
 
-
-
 /*footer*/
+
 
 #social a{
     list-style: none;
@@ -256,11 +306,6 @@ hr {
     color:black;
 }
 
-a:hover{
-    color:hsl(350, 54%, 69%);
-}
-
-
 @media (min-width:576px) {
     .container-fluid.mod {
         width:auto;
@@ -275,6 +320,7 @@ a:hover{
         margin:auto;
     }    
 }
+
 
 @media (hover:hover) {
 #social a:hover{
