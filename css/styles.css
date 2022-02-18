@@ -306,6 +306,11 @@ hr {
     color:black;
 }
 
+.btn:focus {
+    box-shadow: unset !important;
+    outline: 0 !important;
+}
+
 @media (min-width:576px) {
     .container-fluid.mod {
         width:auto;
